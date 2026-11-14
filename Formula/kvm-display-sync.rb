@@ -1,8 +1,8 @@
 class KvmDisplaySync < Formula
   desc "Keep the Mac desktop layout in sync with a monitor's KVM switch"
   homepage "https://github.com/luff-llc/kvm-display-sync"
-  url "https://github.com/luff-llc/kvm-display-sync/releases/download/v0.1.0/KVM-Display-Sync-0.1.0-source.zip"
-  sha256 "d073574540e6f50d7ed3c477d778374bca99fa0b4567dd3b51d6b1c8f9aea5f6"
+  url "https://github.com/luff-llc/kvm-display-sync/releases/download/v0.1.1/KVM-Display-Sync-0.1.1-source.zip"
+  sha256 "8b94ec57f4aab038bbda9ecc84537f8aea4d754cda91899f9581aaefe8f9e7ec"
   license "MIT"
 
   depends_on xcode: ["26.0", :build]

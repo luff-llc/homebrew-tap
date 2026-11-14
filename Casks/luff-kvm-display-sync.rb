@@ -1,6 +1,6 @@
 cask "luff-kvm-display-sync" do
-  version "0.1.0"
-  sha256 "794588e34a443d0e8c6bdbcbacb4a5114e2e49c965c9e3794ab2e0776438d5ce"
+  version "0.1.1"
+  sha256 "1e4a51f9627291fb673557fd94c77a6e8a4074a78ed964819c2d5d93de31b517"
 
   url "https://github.com/luff-llc/kvm-display-sync/releases/download/v#{version}/KVM-Display-Sync-#{version}-macOS-arm64.zip"
   name "KVM Display Sync by LUFF"
