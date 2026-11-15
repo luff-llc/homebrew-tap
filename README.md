@@ -21,6 +21,17 @@ The app and CLI share one background service. You do not need both. Before remov
 
 Source, releases, compatibility notes and original attribution: [luff-llc/kvm-display-sync](https://github.com/luff-llc/kvm-display-sync). Based on AtakanMavzer's MIT-licensed engine, with its original history preserved.
 
+## devdisk
+
+CLI that explains and reclaims disk space used by local development, with a shared simulator pool for coding agents. Built from source (macOS 13+, Xcode 15+):
+
+```sh
+brew install luff-llc/tap/devdisk
+devdisk scan
+```
+
+Source and documentation: [luff-llc/devdisk](https://github.com/luff-llc/devdisk).
+
 This tap is maintained by LUFF, independently of Homebrew's main repositories. Homebrew installation may request trust for this tap or package, depending on your Homebrew version.
 
 ## Maintenance
