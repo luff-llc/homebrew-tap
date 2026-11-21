@@ -1,8 +1,8 @@
 class Devdisk < Formula
   desc "Explain and reclaim disk space used by local development"
   homepage "https://github.com/luff-llc/devdisk"
-  url "https://github.com/luff-llc/devdisk/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "739f0681c8ae0cc9b03c8786a43dbf22a39893c1b3b96a149bb70ac3706727f4"
+  url "https://github.com/luff-llc/devdisk/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "211ac73b6d6ad25298ca6fce5fc2f3f9a885c925fa5a3f13098f25dd72b83edb"
   license "MIT"
 
   depends_on xcode: ["15.0", :build]
