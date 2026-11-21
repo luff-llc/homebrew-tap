@@ -21,6 +21,19 @@ The app and CLI share one background service. You do not need both. Before remov
 
 Source, releases, compatibility notes and original attribution: [luff-llc/kvm-display-sync](https://github.com/luff-llc/kvm-display-sync). Based on AtakanMavzer's MIT-licensed engine, with its original history preserved.
 
+## Pressroom
+
+The gatekeeper for the work agents run on a machine: it admits builds by weight, keeps cache
+lanes and leases, and shows what runs, what waits and why in the menu bar. Notarized app with
+the daemon inside (Apple silicon, macOS 15+):
+
+```sh
+brew install --cask luff-llc/tap/pressroom
+```
+
+Open it once; it starts the daemon at login unless one is already running. Source, contracts
+and Linux use: [luff-llc/pressroom](https://github.com/luff-llc/pressroom). Apache-2.0.
+
 ## devdisk
 
 CLI that explains and reclaims disk space used by local development, with a shared simulator pool for coding agents. Built from source (macOS 13+, Xcode 15+):
